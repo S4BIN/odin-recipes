@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.image {
+    height: auto;
+    width: 500px;
+}
+.ingredients {
+    background-color: rgb(8, 0, 36);
+    color: white;
+}
+.steps {
+    background-color: brown;
+    color: aquamarine;
+}
