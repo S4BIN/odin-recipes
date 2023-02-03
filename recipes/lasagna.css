@@ -1,17 +1,24 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: rgb(54, 29, 0);
+    color: white;
+}
+
+#title {
+    color: black;
 }
 
 .image {
     height: auto;
     width: 500px;
+    border-radius: 10px;
+    border-color: rgb(36, 19, 0);
+    border-width: 20px;
 }
 .ingredients {
-    background-color: rgb(8, 0, 36);
-    color: white;
-}
-.steps {
-    background-color: brown;
-    color: aquamarine;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
