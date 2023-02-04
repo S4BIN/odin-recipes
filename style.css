@@ -1,10 +1,32 @@
-*{
+body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(3, 100, 0);
+    padding: 0;
+    margin: 0;
 }
+
+.header {
+    background-color: black;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    padding: 30px;
+}
+
+.left, .right {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right {
+    flex-direction: row;
+}
+
 .page-container{
-    text-align: center;
-}
-.heading {
     text-align: center;
 }
