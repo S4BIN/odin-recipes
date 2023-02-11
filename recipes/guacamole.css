@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(179, 150, 97);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(58, 33, 4);
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.left, .right {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right {
+    flex-direction: row;
+}
+
+.log-in {
+    padding: 8px 4px 8px 4px;
+    background-color: rgb(179, 150, 97);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 33, 4);
+    cursor: pointer;
+}
+
+.page-container {
+    display: inline-flex;
+}
+
+.image {
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    border-color: rgb(36, 19, 0);
+    border-width: 20px;
+}
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    color: rgb(58, 33, 4);
+    border-radius: 30px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: white;
+    color: rgb(58, 33, 4);
+    align-items: center;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.steps {
+    margin: 40px;
+    background-color: white;
+    color: rgb(58, 33, 4);
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(58, 33, 4);
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 500px;
+    margin: 20px;
+}
+
+.empty {
+    margin-right: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.subscribe {
+    background-color: rgb(179, 150, 97);
+    color: rgb(58, 33, 4);
+    margin-left: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+.contact-us {
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
