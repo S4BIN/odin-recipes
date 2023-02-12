@@ -7,7 +7,7 @@ body{
     padding: 0;
 }
 
-.header {
+header {
     background-color: rgb(58, 33, 4);
     font-size: 20px;
     font-weight: 500;
@@ -19,14 +19,14 @@ body{
     margin-bottom: 10px;
 }
 
-.left, .right {
+.left, nav {
     color: white;
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.right {
+nav {
     flex-direction: row;
 }
 
@@ -79,7 +79,7 @@ body{
     padding-bottom: 5px;
 }
 
-.footer {
+footer {
     display: flex;
     background-color: rgb(58, 33, 4);
     justify-content: space-between;
@@ -107,9 +107,4 @@ body{
 .contact-us {
     margin: 20px;
     margin-right: 100px;
-}
-
-.follow {
-    display: flex;
-    flex-direction: column;
 }
